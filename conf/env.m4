@@ -16,5 +16,7 @@ define(`CF_VERSION', `esyscmd(`cat VERSION | tr -d "\n"')')dnl
 
 # 是否开启TCP, 默认yes
 define(`CF_ENABLE_TCP', `esyscmd(`printf "${CF_ENABLE_TCP:-yes}"')')dnl
-divert(0)dnl
 
+define(`CF_BUILD_TIME', `esyscmd(`date | tr -d "\n"')')dnl
+
+divert(0)dnl

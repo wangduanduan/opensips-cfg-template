@@ -1,5 +1,8 @@
+include(`./conf/env.m4')dnl
+`#' BUILD_TIME: CF_BUILD_TIME
+`#' BUILD_VERSION: CF_VERSION
+# ----------------------------------------------------
 
-include(`./conf/env.m4')
 include(`./conf/global.m4')
 include(`./conf/mod.m4')
 
